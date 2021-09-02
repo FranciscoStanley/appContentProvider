@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppContentProvider">
+        <provider
+            android:name=".database.NotasProvider"
+            android:authorities="com.example.appcontentprovider.provider"
+            android:enabled="true"
+            android:exported="true"></provider>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
