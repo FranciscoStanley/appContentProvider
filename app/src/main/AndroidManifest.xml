@@ -11,7 +11,7 @@
         android:theme="@style/Theme.AppContentProvider">
         <provider
             android:name=".database.NotasProvider"
-            android:authorities="com.example.appcontentprovider.provider"
+            android:authorities="com.exampler.appcontentprovider.provide"
             android:enabled="true"
             android:exported="true"></provider>
 
